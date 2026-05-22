@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDDY — Modern Streetwear</title>
+  <meta name="description" content="EDDY clothing shop for t-shirts, frocks, crop tops, and DTF print tees. Modern streetwear with premium minimal style." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="EDDY home">
+        <img src="assets/logo.png" alt="EDDY logo" class="brand-mark" />
+        <span class="brand-text">EDDY</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" data-open="false">
+        <a href="#collections">Collections</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Modern clothing shop</p>
+          <h1>Minimal streetwear built for everyday confidence.</h1>
+          <p class="hero-text">
+            EDDY creates premium t-shirts, frocks, crop tops, and DTF print tees with a clean,
+            modern look that feels ready for the streets, socials, and your next drop.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#collections">Shop Collection</a>
+            <a class="btn btn-secondary" href="#contact">Order Now</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>04</strong><span>Core styles</span></div>
+            <div><strong>Premium</strong><span>Streetwear feel</span></div>
+            <div><strong>Custom</strong><span>DTF print ready</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card hero-card-main">
+            <img src="assets/lookbook-2.jpeg" alt="EDDY black t-shirt lookbook" />
+            <div class="hero-tag">New Drop • EDDY</div>
+          </div>
+          <div class="hero-card hero-card-small">
+            <img src="assets/logo.png" alt="EDDY brand logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>EDDY STREETWEAR</span>
+        <span>DTF PRINT TEES</span>
+        <span>FROCKS</span>
+        <span>CROP TOPS</span>
+        <span>PREMIUM FIT</span>
+        <span>EDDY STREETWEAR</span>
+        <span>DTF PRINT TEES</span>
+        <span>FROCKS</span>
+        <span>CROP TOPS</span>
+        <span>PREMIUM FIT</span>
+      </div>
+    </section>
+
+    <section id="collections" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Collections</p>
+          <h2>Built for a clean modern catalog.</h2>
+          <p>Show your best-selling categories in a simple, premium layout that feels like a real fashion brand.</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="tshirt">T-Shirts</button>
+          <button class="filter-btn" data-filter="frock">Frocks</button>
+          <button class="filter-btn" data-filter="crop">Crop Tops</button>
+          <button class="filter-btn" data-filter="dtf">DTF Print</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal" data-category="tshirt dtf">
+            <div class="product-badge">Best Seller</div>
+            <h3>Oversized Graphic Tee</h3>
+            <p>Heavy cotton, relaxed fit, perfect for streetwear and custom prints.</p>
+            <div class="product-meta"><span>Unisex</span><span>DTF Ready</span></div>
+          </article>
+          <article class="product-card reveal" data-category="frock">
+            <div class="product-badge">New</div>
+            <h3>Minimal Frock Collection</h3>
+            <p>Soft, elegant silhouettes designed for clean everyday styling.</p>
+            <div class="product-meta"><span>Women</span><span>Premium Fit</span></div>
+          </article>
+          <article class="product-card reveal" data-category="crop">
+            <div class="product-badge">Trending</div>
+            <h3>Street Crop Top</h3>
+            <p>Modern crop tops with a bold fit that works for casual and sporty looks.</p>
+            <div class="product-meta"><span>Women</span><span>Soft Feel</span></div>
+          </article>
+          <article class="product-card reveal" data-category="dtf tshirt">
+            <div class="product-badge">Custom Print</div>
+            <h3>DTF Print T-Shirt</h3>
+            <p>Sharp print quality, vibrant detail, and durable everyday wear.</p>
+            <div class="product-meta"><span>Custom</span><span>Low MOQ</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="lookbook" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Lookbook</p>
+          <h2>Use the photos to sell the vibe.</h2>
+          <p>These lifestyle shots make the brand feel real, premium, and ready for social media marketing.</p>
+        </div>
+
+        <div class="lookbook-grid">
+          <figure class="lookbook-card reveal">
+            <img src="assets/lookbook-1.jpeg" alt="EDDY couple outfit photo" />
+            <figcaption>
+              <strong>Back print focus</strong>
+              <span>Strong wing graphic for statement drops.</span>
+            </figcaption>
+          </figure>
+          <figure class="lookbook-card reveal">
+            <img src="assets/lookbook-2.jpeg" alt="EDDY front logo photo" />
+            <figcaption>
+              <strong>Front logo focus</strong>
+              <span>Minimal chest branding for premium streetwear.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow">About EDDY</p>
+          <h2>A brand look that feels modern, clean, and easy to buy from.</h2>
+          <p>
+            The website is designed for a fashion store that sells t-shirts, frocks, crop tops,
+            and DTF print tees. It keeps the layout simple while still looking premium on mobile and desktop.
+          </p>
+        </div>
+        <div class="about-box reveal">
+          <div>
+            <span>01</span>
+            <p>Clean typography with strong black-and-white branding.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <p>Fast product browsing with simple category filters.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <p>Built for Instagram, TikTok, and WhatsApp selling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section">
+      <div class="container cta-box reveal">
+        <div>
+          <p class="eyebrow">Ready to launch</p>
+          <h2>Turn EDDY into a real online clothing store.</h2>
+        </div>
+        <a class="btn btn-primary" href="#contact">Start Selling</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Place your order or ask for custom print work.</h2>
+          <p>Use this section for WhatsApp, Instagram, or your store details.</p>
+          <div class="contact-list">
+            <div><span>WhatsApp</span><strong>+94 7X XXX XXXX</strong></div>
+            <div><span>Instagram</span><strong>@eddy.apparel</strong></div>
+            <div><span>Email</span><strong>hello@eddyshop.lk</strong></div>
+          </div>
+        </div>
+        <form class="contact-form reveal">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Product
+            <select>
+              <option>T-Shirt</option>
+              <option>Frock</option>
+              <option>Crop Top</option>
+              <option>DTF Print Tee</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Tell us what you need..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="EDDY logo" class="brand-mark" />
+        <div>
+          <strong>EDDY</strong>
+          <p>Modern streetwear and custom print clothing.</p>
+        </div>
+      </div>
+      <p>© 2026 EDDY. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
